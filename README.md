@@ -62,7 +62,7 @@ Crea un grupo Ambiente:
 - Agrega una zona específica del juego en que el ambiente cambie de sonido
 Crea un grupo para música: Crea un loop de música de fondo acorde al tono del juego
 
-![E](img/E.mp4)
+[![E](img/E.mp4)](https://github.com/user-attachments/assets/3fbddf44-78f8-4fea-a53f-ceed7c995b12)
 
 Scripts: [PlayerMovement](scripts/PlayerMovement.cs), [Collectable](scripts/Collectable.cs), [OnAmbientChange](scripts/OnAmbientChange.cs), [HealthBar](scripts/HealthBar.cs)
 
