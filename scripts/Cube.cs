@@ -28,7 +28,7 @@ public class Cube : MonoBehaviour
     
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.layer == sphereLayerMask)
+        if ((sphereLayerMask.value & 1 << other.gameObject.layer) == 0)
         {
             return;
         }

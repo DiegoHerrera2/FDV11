@@ -4,8 +4,6 @@ public class FootSteps : MonoBehaviour
 {
     private AudioSource _source;
     [SerializeField] private float threshold = 1f;
-    [SerializeField] private float timeBetweenSteps = 0.5f;
-    private float _timer;
     private Vector3 _lastPosition;
     void Awake()
     {
@@ -22,7 +20,6 @@ public class FootSteps : MonoBehaviour
         {
             _source.Play();
             _lastPosition = transform.position;
-            _timer = 0;
         }
     }
 }
